@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_2_Deliting_a_reservation</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_2_Deliting_a_reservation.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Deliting_a_reservation.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_Deliting_a_reservation.c" Filter="2" />
+    <FileEntry Name="combined_UC_2_Deliting_a_reservation.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="115083266440.idx" Filter="1" />
+    <FileEntry Name="11508326644_MCD.233.idx" Filter="1" />
+    <FileEntry Name="11508326644_mJ4.31.idx" Filter="1" />
+    <FileEntry Name="169695595440.idx" Filter="1" />
+    <FileEntry Name="171880020440.idx" Filter="1" />
+    <FileEntry Name="254528551440.idx" Filter="1" />
+    <FileEntry Name="45688452440.idx" Filter="1" />
+    <FileEntry Name="48154634440.idx" Filter="1" />
+    <FileEntry Name="87621182440.idx" Filter="1" />
+    <FileEntry Name="9653652440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="Deliting_a_reservation.c.pickle" Filter="1" />
+    <FileEntry Name="Deliting_a_reservation.ci" Filter="1" />
+    <FileEntry Name="Deliting_a_reservation.prm.bak" Filter="1" />
+    <FileEntry Name="Deliting_a_reservation.sdf" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvAOD.953.log" Filter="1" />
+    <FileEntry Name="mdrvAWn.811.log" Filter="1" />
+    <FileEntry Name="mdrvbdx.55.log" Filter="1" />
+    <FileEntry Name="mdrvcgD.193.log" Filter="1" />
+    <FileEntry Name="mdrvDh2.553.log" Filter="1" />
+    <FileEntry Name="mdrvdiC.949.log" Filter="1" />
+    <FileEntry Name="mdrvEH6.445.log" Filter="1" />
+    <FileEntry Name="mdrveIG.705.log" Filter="1" />
+    <FileEntry Name="mdrvFAC.445.log" Filter="1" />
+    <FileEntry Name="mdrvFlE.777.log" Filter="1" />
+    <FileEntry Name="mdrvGop.575.log" Filter="1" />
+    <FileEntry Name="mdrvi68.675.log" Filter="1" />
+    <FileEntry Name="mdrvIyz.993.log" Filter="1" />
+    <FileEntry Name="mdrvjim.671.log" Filter="1" />
+    <FileEntry Name="mdrvjsX.101.log" Filter="1" />
+    <FileEntry Name="mdrvkhl.91.log" Filter="1" />
+    <FileEntry Name="mdrvkS0.537.log" Filter="1" />
+    <FileEntry Name="mdrvLao.213.log" Filter="1" />
+    <FileEntry Name="mdrvLCi.495.log" Filter="1" />
+    <FileEntry Name="mdrvmrb.739.log" Filter="1" />
+    <FileEntry Name="mdrvoSb.729.log" Filter="1" />
+    <FileEntry Name="mdrvPQ1.609.log" Filter="1" />
+    <FileEntry Name="mdrvqrS.379.log" Filter="1" />
+    <FileEntry Name="mdrvR5v.77.log" Filter="1" />
+    <FileEntry Name="mdrvsnx.651.log" Filter="1" />
+    <FileEntry Name="mdrvUFU.191.log" Filter="1" />
+    <FileEntry Name="mdrvvzO.65.log" Filter="1" />
+    <FileEntry Name="mdrvWP2.183.log" Filter="1" />
+    <FileEntry Name="mdrvZ81.541.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UC_2_Deliting_a_reservation.c.pickle" Filter="1" />
+    <FileEntry Name="UC_2_Deliting_a_reservation.ci" Filter="1" />
+    <FileEntry Name="UC_2_Deliting_a_reservation.sdf" Filter="1" />
+    <FileEntry Name="username.dat" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

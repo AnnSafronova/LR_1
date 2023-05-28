@@ -1,0 +1,62 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1684404512194
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t2.inf",
+                "time": 1684404512389
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1684404512533
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_site",
+                "rawStartTime": 1684404512008,
+                "rawEndTime": 1684404512194,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09394478797912598
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1684404512238,
+                "rawEndTime": 1684404512389,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008551359176635743
+            },
+            {
+                "transactionName": "go_to_flights",
+                "rawStartTime": 1684404512410,
+                "rawEndTime": 1684404512534,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010528564453125
+            },
+            {
+                "transactionName": "Check_ticket",
+                "rawStartTime": 1684404512564,
+                "rawEndTime": 1684404512567,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "5_Skript_Check_reservation",
+                "rawStartTime": 1684404511912,
+                "rawEndTime": 1684404512567,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11302471160888672
+            }
+        ]
+    }
+]

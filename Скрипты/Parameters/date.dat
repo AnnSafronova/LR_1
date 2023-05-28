@@ -1,0 +1,11 @@
+username,password,FirstName,LastName,city,street_address,DepartureCity,ArrivalCity,seating_preference,type_of_seat,credit_card,exp_date,departure_date,return_date,roundtrip
+user,password,Misha,Gubin,Novgorod,Lenina,Zurich,Denver,Aisle,First,111111,01/23,01/05/2023,02/05/2023,on
+user1,password1,Kosty,Ablukov,Ulyanovsk,Goncharova,Denver,Zurich,Window,Business,222222,02/23,03/05/2023,04/05/2023,off
+user2,password2,Anna,Safronova,samara,Gagarina,Paris,Portland,Aisle,First,333333,03/23,05/05/2023,06/05/2023,on
+user3,password3,Lena,Light,Kazan,Skochilova,Sydney,Denver,London,Business,444444,02/23,07/05/2023,08/05/2023,on
+user4,password4,Ivan,Ivanov,Yaroslavl,Narimanova,Seattle,Paris,Window,Business,555555,01/23,09/05/2023,10/05/2023,on
+user5,password5,Julia,Serova,Moskow,Zarechnaya,Zurich,Sydney,Aisle,First,666666,02/23,03/05/2023,04/05/2023,on
+user6,password6,Dima,Egorov,Peter,Northern,Paris,Portland,Aisle,First,777777,03/23,01/05/2023,02/05/2023,on
+user7,password7,Diana,Knyazev,Ekaterinburg,Tyuleneva,Denver,Zurich,Window,Business,888888,04/23,01/06/2023,02/06/2023,on
+user8,password8,Hatasha,Kulakov,Tyla,Engineering,Sydney,Denver,London,First,999999,03/23,08/06/2023,09/06/2023,on
+user9,password9,Andrey,Petrov,Novosibirsk,Karbysheva,Paris,Portland,Aisle,First,100000,05/23,07/05/2023,08/05/2023,on

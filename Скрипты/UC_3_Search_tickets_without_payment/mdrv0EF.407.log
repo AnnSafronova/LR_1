@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 64.	[MsgId: MMSG-10545]
+..\\Parameters\\common.h(122): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\common.h(125): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\common.h(125): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\common.h(125): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+..\\Parameters\\common.h(125): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+..\\Parameters\\common.h(125): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

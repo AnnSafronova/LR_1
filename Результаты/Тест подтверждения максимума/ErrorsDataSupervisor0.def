@@ -1,0 +1,39 @@
+﻿[ErrorsDataSupervisor_BasicInfo]
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+UseEscapeSequence=1
+DimCount=6
+Dim_0=01_Reg_new_user
+Dim_1=1_script_buy_a_ticket
+Dim_2=2_script_delete_reservation
+Dim_3=3_script_Search_tiskets_without_payment
+Dim_4=5_Skript_Check_reservation
+Dim_5=7_login_logout
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=300.000000
+Dim_1=3900.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+

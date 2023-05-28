@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\temp\new_script\UC_3_Search_tickets_without_payment
+-ID:\temp\LoadRunner\include
+-ed:\temp\new_script\uc_3_search_tickets_without_payment\\logfile.log
+d:\temp\new_script\uc_3_search_tickets_without_payment\\combined_UC_3_Search_tickets_without_payment.c
+d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c

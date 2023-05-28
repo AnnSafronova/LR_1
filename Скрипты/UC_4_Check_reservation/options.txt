@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\temp\new_script\UC_5_Check_reservation
+-ID:\temp\LoadRunner\include
+-ed:\temp\new_script\uc_5_check_reservation\\logfile.log
+d:\temp\new_script\uc_5_check_reservation\\combined_UC_5_Check_reservation.c
+d:\temp\new_script\uc_5_check_reservation\\pre_cci.c

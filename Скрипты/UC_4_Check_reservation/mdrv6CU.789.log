@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+..\\Parameters\\common.h(104): web_reg_find started  	[MsgId: MMSG-26355]
+..\\Parameters\\common.h(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\Parameters\\common.h(107): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+..\\Parameters\\common.h(107): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+..\\Parameters\\common.h(107): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+..\\Parameters\\common.h(107): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

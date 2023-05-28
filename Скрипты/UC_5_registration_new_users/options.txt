@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\temp\new_script\UC_5_registration_new_users
+-ID:\temp\LoadRunner\include
+-ed:\temp\new_script\uc_5_registration_new_users\\logfile.log
+d:\temp\new_script\uc_5_registration_new_users\\combined_UC_6_registration_new_users.c
+d:\temp\new_script\uc_5_registration_new_users\\pre_cci.c
