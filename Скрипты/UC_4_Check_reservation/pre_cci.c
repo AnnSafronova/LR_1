@@ -1,4 +1,4 @@
-# 1 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c"
+# 1 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c"
 # 1 "D:\\temp\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 1 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 
 # 1 "D:\\temp\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 2 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 
 # 1 "globals.h" 1
 
@@ -2675,10 +2675,10 @@ web_reg_find("Text=<b>Find Flight<","LAST");
 
 check_tiket(){lr_start_transaction("Check_ticket");
 	
-	web_reg_save_param("flightID",
-	"LB=flightID\" value=\"",
-	"RB\IC=\"",
-	"LAST");
+	 
+	 
+	 
+	 
 	                   
 	
 
@@ -2749,7 +2749,6 @@ lr_end_transaction("log_out",2);
 
 
 
-
 # 9 "globals.h" 2
 
 
@@ -2758,79 +2757,166 @@ lr_end_transaction("log_out",2);
  
 
 
-# 3 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 3 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 4 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("5_Skript_Check_reservation");
+	lr_start_transaction("04_check_reserv");
 
-web_add_auto_header("Sec-Fetch-Site", 
-		"none");
+		lr_start_transaction("goToSite");
 
-	web_add_auto_header("Sec-Fetch-Dest", 
-		"document");
+			web_set_sockets_option("SSL_VERSION", "AUTO");
+		
+			web_add_auto_header("Sec-Fetch-Site", 
+				"none");
+		
+			web_add_auto_header("Sec-Fetch-Dest", 
+				"document");
+		
+			web_add_auto_header("Sec-Fetch-Mode", 
+				"navigate");
+		
+			web_add_auto_header("Sec-Fetch-User", 
+				"?1");
+		
+			web_add_auto_header("Upgrade-Insecure-Requests", 
+				"1");
+		
+	
+			web_reg_save_param_attrib(
+				"ParamName=userSession",
+				"TagName=input",
+				"Extract=value",
+				"Name=userSession",
+				"Type=hidden",
+				"SEARCH_FILTERS",
+				"RequestUrl=*/nav.pl*",
+				"LAST");
+		
+			web_reg_find("Fail=NotFound",
+				"Text=Web Tours",
+				"LAST");
+		
+			web_url("WebTours", 
+				"URL=http://localhost:1080/WebTours/", 
+				"TargetFrame=", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=", 
+				"Snapshot=t1.inf", 
+				"Mode=HTML", 
+				"LAST");
+		
+		lr_end_transaction("goToSite", 2);
 
-	web_add_auto_header("Sec-Fetch-Mode", 
-		"navigate");
+		lr_think_time(6);
+		
+		lr_start_transaction("login");
 
-	web_add_auto_header("Sec-Fetch-User", 
-		"?1");
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+		
+			web_add_auto_header("Sec-Fetch-Dest", 
+				"frame");
+		
+			(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
+		
+			web_add_header("Origin", 
+				"http://localhost:1080");
+		
+			web_add_auto_header("Sec-Fetch-Site", 
+				"same-origin");
+		
+			web_reg_find("Fail=NotFound",
+				"Text=User password was correct",
+				"LAST");
+			
+			web_submit_data("login.pl",
+				"Action=http://localhost:1080/cgi-bin/login.pl",
+				"Method=POST",
+				"TargetFrame=body",
+				"RecContentType=text/html",
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+				"Snapshot=t2.inf",
+				"Mode=HTML",
+				"ITEMDATA",
+				"Name=userSession", "Value={userSession}", "ENDITEM",
+				"Name=username", "Value={login}", "ENDITEM",
+				"Name=password", "Value={password}", "ENDITEM",
+				"Name=login.x", "Value=72", "ENDITEM",
+				"Name=login.y", "Value=7", "ENDITEM",
+				"Name=JSFormSubmit", "Value=off", "ENDITEM",
+				"LAST");
+			
+		lr_end_transaction("login", 2);
 
-	web_add_auto_header("Upgrade-Insecure-Requests", 
-		"1");
+		lr_think_time(21);
+		 
+		
+		lr_start_transaction("viewing_receipt");
 
-	opensite();
+			web_add_auto_header("Sec-Fetch-User",
+				"?1");
+		
+			web_add_auto_header("Upgrade-Insecure-Requests", 
+				"1");
+		
+			web_reg_find("Fail=NotFound",
+				"Text=User wants the intineraries",
+				"LAST");
+			
+			web_url("Itinerary Button", 
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+				"Snapshot=t3.inf", 
+				"Mode=HTML", 
+				"LAST");
+	
+		lr_end_transaction("viewing_receipt", 2);
+			
+		lr_think_time(6);
+			
+		lr_start_transaction("logout");
 
-	
-	web_set_sockets_option("SSL_VERSION", "2&3");
-	
-	
-	lr_think_time(5);
-
-	login();
-
-	
-	
-	
-	
-	
-	lr_think_time(5);
-	gotoflight();
-	lr_think_time(5);
-	
-	check_tiket();
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-lr_think_time(5);
-logout();
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+			
+			web_reg_find("Fail=NotFound",
+				"Text=A Session ID has been created and loaded into a cookie called",
+				"LAST");
+		
+			web_url("SignOff Button", 
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+				"Snapshot=t4.inf", 
+				"Mode=HTML", 
+				"LAST");
+			
+		lr_end_transaction("logout", 2);
 
 
-	lr_end_transaction("5_Skript_Check_reservation", 2);
+	lr_end_transaction("04_check_reserv", 2);
 
 	return 0;
 }
-# 5 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 5 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "d:\\temp\\new_script\\uc_5_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
+# 6 "d:\\temp\\new_script\\uc_4_check_reservation\\\\combined_UC_5_Check_reservation.c" 2
 

@@ -23,6 +23,7 @@
     <FileEntry Name="267972261440.idx" Filter="1" />
     <FileEntry Name="27895103440.idx" Filter="1" />
     <FileEntry Name="49423012440.idx" Filter="1" />
+    <FileEntry Name="86022456440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="Check_reservation.c.pickle" Filter="1" />
@@ -34,9 +35,12 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6CU.789.log" Filter="1" />
     <FileEntry Name="mdrvgRx.545.log" Filter="1" />
     <FileEntry Name="mdrvNmm.105.log" Filter="1" />
     <FileEntry Name="mdrvOIF.857.log" Filter="1" />
+    <FileEntry Name="mdrvoWx.539.log" Filter="1" />
+    <FileEntry Name="mdrvR9Q.167.log" Filter="1" />
     <FileEntry Name="mdrvWPZ.749.log" Filter="1" />
     <FileEntry Name="mdrvx8V.617.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />

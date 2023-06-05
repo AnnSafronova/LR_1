@@ -1,7 +1,9 @@
 HTTP/1.1 200 OK
-Date: Sun, 28 May 2023 10:47:05 GMT
+Date: Mon, 05 Jun 2023 14:52:01 GMT
 Server: Apache/2.2.21 (Win32)
-Keep-Alive: timeout=5, max=95
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&&address2&&username&cracow&hash&23&lastName&%0A&address1&&creditCard&5312%208324%206339%206623&expDate&5123%0A; path=/
+Keep-Alive: timeout=5, max=97
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1

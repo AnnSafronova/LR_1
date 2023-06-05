@@ -1,0 +1,81 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1685977319744
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.pl",
+                "infFile": "t2.inf",
+                "time": 1685977319866
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t3.inf",
+                "time": 1685977320021
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: button_next.gif",
+                "infFile": "t4.inf",
+                "time": 1685977320237
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1685977320349
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_site",
+                "rawStartTime": 1685977319598,
+                "rawEndTime": 1685977319744,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06974267959594727
+            },
+            {
+                "transactionName": "Open_sign_up_now",
+                "rawStartTime": 1685977319769,
+                "rawEndTime": 1685977319880,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004072666168212891
+            },
+            {
+                "transactionName": "Filling_out_the_form",
+                "rawStartTime": 1685977319912,
+                "rawEndTime": 1685977320037,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005424022674560547
+            },
+            {
+                "transactionName": "Continue",
+                "rawStartTime": 1685977320069,
+                "rawEndTime": 1685977320242,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004802227020263672
+            },
+            {
+                "transactionName": "log_out",
+                "rawStartTime": 1685977320272,
+                "rawEndTime": 1685977320349,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005663871765136719
+            },
+            {
+                "transactionName": "06_CreatingNewAccount",
+                "rawStartTime": 1685977319582,
+                "rawEndTime": 1685977320365,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0897054672241211
+            }
+        ]
+    }
+]

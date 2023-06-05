@@ -16,16 +16,34 @@
     <FileEntry Name="combined_Search_tickets_without_payment.c" Filter="2" />
     <FileEntry Name="combined_UC_3_Search_tickets_without_payment.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="110504016440.idx" Filter="1" />
     <FileEntry Name="136378995440.idx" Filter="1" />
     <FileEntry Name="143254978440.idx" Filter="1" />
     <FileEntry Name="143299269440.idx" Filter="1" />
     <FileEntry Name="144622832440.idx" Filter="1" />
+    <FileEntry Name="14462283244_9ud.575.idx" Filter="1" />
+    <FileEntry Name="14462283244_bqW.231.idx" Filter="1" />
+    <FileEntry Name="14462283244_GUY.635.idx" Filter="1" />
+    <FileEntry Name="14462283244_lnL.371.idx" Filter="1" />
+    <FileEntry Name="14462283244_Nxj.569.idx" Filter="1" />
+    <FileEntry Name="14462283244_RZo.881.idx" Filter="1" />
+    <FileEntry Name="14462283244_Spa.17.idx" Filter="1" />
+    <FileEntry Name="14462283244_TFC.767.idx" Filter="1" />
+    <FileEntry Name="14462283244_tmX.931.idx" Filter="1" />
+    <FileEntry Name="14462283244_zgz.551.idx" Filter="1" />
+    <FileEntry Name="147898640440.idx" Filter="1" />
+    <FileEntry Name="148507932440.idx" Filter="1" />
     <FileEntry Name="16129557440.idx" Filter="1" />
     <FileEntry Name="171677207440.idx" Filter="1" />
+    <FileEntry Name="205656377440.idx" Filter="1" />
     <FileEntry Name="214351123440.idx" Filter="1" />
     <FileEntry Name="249983597440.idx" Filter="1" />
+    <FileEntry Name="250629198440.idx" Filter="1" />
     <FileEntry Name="253727698440.idx" Filter="1" />
     <FileEntry Name="254528551440.idx" Filter="1" />
+    <FileEntry Name="51475744440.idx" Filter="1" />
+    <FileEntry Name="62876129440.idx" Filter="1" />
+    <FileEntry Name="advanceDiscount.dat" Filter="1" />
     <FileEntry Name="ArrivalCity.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -35,14 +53,18 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0EF.407.log" Filter="1" />
     <FileEntry Name="mdrvgW4.213.log" Filter="1" />
     <FileEntry Name="mdrvLq5.101.log" Filter="1" />
+    <FileEntry Name="mdrvqcf.143.log" Filter="1" />
+    <FileEntry Name="mdrvY3M.307.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="random_id.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="Search_tickets_without_payment.c.pickle" Filter="1" />
