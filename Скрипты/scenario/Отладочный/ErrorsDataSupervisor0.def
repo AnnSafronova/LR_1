@@ -1,0 +1,43 @@
+﻿[ErrorsDataSupervisor_BasicInfo]
+NumFilters=1
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=21
+UseEscapeSequence=1
+DimCount=21
+Dim_0=01_Reg_new_user
+Dim_1=1_script_buy_a_ticket
+Dim_2=2_script_delete_reservation
+Dim_3=3_script_Search_tiskets_without_payment
+Dim_4=5_Skript_Check_reservation
+Dim_5=7_login_logout
+Dim_6=Action_Transaction
+Dim_7=Cancel_reservation
+Dim_8=Check_ticket
+Dim_9=Continue
+Dim_10=Filling_out_the_form
+Dim_11=fing_flight
+Dim_12=go_to_flights
+Dim_13=log_out
+Dim_14=login
+Dim_15=Open_sign_up_now
+Dim_16=open_site
+Dim_17=payment_details
+Dim_18=select_ticket
+Dim_19=vuser_end_Transaction
+Dim_20=vuser_init_Transaction
+LikeMode=0
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+

@@ -2722,8 +2722,73 @@ logout(){lr_start_transaction("log_out");
 lr_end_transaction("log_out",2);
 };
 
-
-
+goToSite(){lr_start_transaction("goToSite");
+	
+			web_set_sockets_option("SSL_VERSION", "AUTO");
+		
+			web_add_auto_header("Sec-Fetch-Site", 
+				"none");
+		
+			web_add_auto_header("Sec-Fetch-Dest", 
+				"document");
+		
+			web_add_auto_header("Sec-Fetch-Mode", 
+				"navigate");
+		
+			web_add_auto_header("Sec-Fetch-User", 
+				"?1");
+		
+			web_add_auto_header("Upgrade-Insecure-Requests", 
+				"1");
+		
+			
+			
+			web_reg_save_param_attrib(
+				"ParamName=userSession",
+				"TagName=input",
+				"Extract=value",
+				"Name=userSession",
+				"Type=hidden",
+				"SEARCH_FILTERS",
+				"RequestUrl=*/nav.pl*",
+				"LAST");
+			
+			web_reg_find("Fail=NotFound",
+				"Text=Web Tours",
+				"LAST");
+			
+			web_url("WebTours", 
+				"URL=http://localhost:1080/WebTours/", 
+				"TargetFrame=", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=", 
+				"Snapshot=t1.inf", 
+				"Mode=HTML", 
+				"LAST");
+			
+		lr_end_transaction("goToSite", 2);
+}
+Logout(){lr_start_transaction("logout");
+	
+			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+		
+			web_reg_find("Fail=NotFound",
+				"Text=A Session ID has been created and loaded into a cookie called",
+				"LAST");
+			
+			web_url("SignOff Button",
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+				"Snapshot=t8.inf", 
+				"Mode=HTML", 
+				"LAST");
+			
+		lr_end_transaction("logout", 2);
+}
 
 
 
@@ -2771,50 +2836,7 @@ Action()
 
 	lr_start_transaction("03_SearchTicketNoPayment");
 
-		lr_start_transaction("goToSite");
-
-			web_add_auto_header("Sec-Fetch-Site",
-				"none");
-		
-			web_add_auto_header("Sec-Fetch-Dest", 
-				"document");
-		
-			web_add_auto_header("Sec-Fetch-Mode", 
-				"navigate");
-		
-			web_add_auto_header("Sec-Fetch-User", 
-				"?1");
-		
-			web_add_auto_header("Upgrade-Insecure-Requests", 
-				"1");
-		
-			
-			
-			web_reg_save_param_attrib(
-				"ParamName=userSession",
-				"TagName=input",
-				"Extract=value",
-				"Name=userSession",
-				"Type=hidden",
-				"SEARCH_FILTERS",
-				"RequestUrl=*/nav.pl*",
-				"LAST");
-			
-			web_reg_find("Fail=NotFound",
-				"Text=Web Tours",
-				"LAST");
-		
-			web_url("WebTours", 
-				"URL=http://localhost:1080/WebTours/", 
-				"TargetFrame=", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=", 
-				"Snapshot=t1.inf", 
-				"Mode=HTML", 
-				"LAST");
-			
-		lr_end_transaction("goToSite", 2);
+	goToSite();
 
 		lr_think_time(21);
 		
@@ -3078,27 +3100,7 @@ Action()
 
 		lr_think_time(21);
 		
-		lr_start_transaction("logout");
-
-			(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
-		
-			(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-		
-			web_reg_find("Fail=NotFound",
-				"Text=A Session ID has been created and loaded into a cookie called",
-				"LAST");
-			
-			web_url("SignOff Button",
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-				"Snapshot=t6.inf", 
-				"Mode=HTML", 
-				"LAST");
-			
-		lr_end_transaction("logout", 2);
+		Logout();
 
 		
 	lr_end_transaction("03_SearchTicketNoPayment", 2);

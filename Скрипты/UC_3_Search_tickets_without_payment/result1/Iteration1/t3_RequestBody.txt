@@ -1,2 +1,2 @@
-"userSession=136571.547590117HActiQipQHQVzzzHtcVtQpDQDiHf&username=bungee&password=cadjan&login"
-".x=66&login.y=6&JSFormSubmit=off"
+"userSession=136577.636127987HAcfcVcpVfiDDDDDtcVfVpcHcQf&username=ammono&password=anilla&login."
+"x=66&login.y=6&JSFormSubmit=off"

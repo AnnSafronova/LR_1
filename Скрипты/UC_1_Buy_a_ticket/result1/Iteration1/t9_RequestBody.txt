@@ -1,5 +1,0 @@
-"firstName=Armfelt&lastName=Matvey&address1=melville&address2=altarlet&pass1=Izmaylov+Parmen&pa"
-"ss2=Vinogradskiy+Artemon&creditCard=9771+7220+6066+3374&expDate=12%2F24&oldCCOption=&numPassen"
-"gers=2&seatType=Business&seatPref=Window&outboundFlight=510%3B464%3B06%2F05%2F2023&returnFligh"
-"t=150%3B464%3B06%2F25%2F2023&advanceDiscount=%7BadvanceDiscount%7D&JSFormSubmit=off&buyFlights"
-".x=70&buyFlights.y=11&.cgifields=saveCC"

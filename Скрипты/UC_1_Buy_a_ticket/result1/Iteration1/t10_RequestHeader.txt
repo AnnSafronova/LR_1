@@ -1,9 +1,8 @@
-GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
-Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Dest: frame
 Sec-Fetch-Mode: navigate
-Sec-Fetch-User: ?1
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 Accept-Encoding: gzip, deflate, br
@@ -11,5 +10,5 @@ Accept-Language: ru,en-US;q=0.9,en;q=0.8,ru-RU;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1685975045; MTUserInfo=firstName&&username&bungee&address2&&hash&69&address1&&lastName&%0A
+Cookie: MSO=SID&1686050605; MTUserInfo=firstName&&username&accite&address2&&hash&101&address1&&lastName&%0A
 

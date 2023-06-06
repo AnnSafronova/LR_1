@@ -8,3 +8,5 @@ d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameter
 d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameters\\common.h:117: warning: empty declaration
 d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameters\\common.h:136: warning: missing return value
 d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameters\\common.h:136: warning: empty declaration
+d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameters\\common.h:184: warning: missing return value
+d:\temp\new_script\uc_3_search_tickets_without_payment\\pre_cci.c: ..\\Parameters\\common.h:204: warning: missing return value

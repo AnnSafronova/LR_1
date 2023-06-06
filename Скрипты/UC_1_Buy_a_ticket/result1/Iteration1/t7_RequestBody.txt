@@ -1,3 +1,2 @@
-"advanceDiscount=%7BadvanceDiscount%7D&depart=Portland&departDate=06%2F05%2F2023&arrive=Frankfu"
-"rt&returnDate=06%2F25%2F2023&numPassengers=2&roundtrip=on&seatPref=Window&seatType=Business&fi"
-"ndFlights.x=57&findFlights.y=3&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=460%3B622%3B06%2F06%2F2023&numPassengers=1&advanceDiscount=%7BadvanceDiscount%7"
+"D&seatType=Coach&seatPref=None&reserveFlights.x=40&reserveFlights.y=9"

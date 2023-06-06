@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="05.06.2023 - 18:52:00" eTime="05.06.2023 - 18:52:00" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="06.06.2023 - 15:25:16" eTime="06.06.2023 - 15:25:16" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>AUTO</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:00]]></Time>
-<TimeTick>1685976720</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Set Sockets Option]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-Site: none</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:00]]></Time>
-<TimeTick>1685976720</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-Dest: document</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:00]]></Time>
-<TimeTick>1685976720</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="11" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -173,8 +173,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-Mode: navigate</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:00]]></Time>
-<TimeTick>1685976720</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="12" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -182,8 +182,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User: ?1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:00]]></Time>
-<TimeTick>1685976720</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="13" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -191,8 +191,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="14" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -200,8 +200,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>userSession</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="15" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
@@ -209,8 +209,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Web Tours</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="16" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -218,8 +218,8 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="17" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -230,8 +230,8 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="18" >
 <Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
 </NodeArgs>
@@ -239,8 +239,8 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-Dest: frame</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="19" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -248,8 +248,8 @@
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="20" >
 <Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
 </NodeArgs>
@@ -257,8 +257,8 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: http://localhost:1080</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="9" nRep="21" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
@@ -266,8 +266,8 @@
 <Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-Site: same-origin</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="22" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -275,8 +275,8 @@
 <Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=User password was correct</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="23" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -284,8 +284,8 @@
 <Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="10" nRep="24" status="Passed" >
 <Disp><![CDATA[Submit Data: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -296,8 +296,8 @@
 <Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User: ?1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="25" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -305,8 +305,8 @@
 <Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="26" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -314,8 +314,8 @@
 <Step rID="T23">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=User wants the intineraries</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="27" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -323,18 +323,18 @@
 <Step rID="T24">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>flight_id</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="flightID" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:16]]></Time>
+<TimeTick>1686050716</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="28" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T25">
 <Obj plainTxt="False" ><![CDATA[Url: Itinerary Button]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="29" status="Passed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="29" status="Failed" >
 <Disp><![CDATA[Url: Itinerary Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
@@ -344,8 +344,8 @@
 <Step rID="T26">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: http://localhost:1080</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
 <NodeArgs eType="General" icon="9" nRep="30" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
@@ -353,8 +353,8 @@
 <Step rID="T27">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Flight Transaction Summary</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="31" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -362,81 +362,60 @@
 <Step rID="T28">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>flights_numbers</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<b>A total of </FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB= scheduled flights.</font></b></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="32" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T29">
-<Obj plainTxt="False" ><![CDATA[Submit Form: web_submit_form]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:01]]></Time>
-<TimeTick>1685976721</TimeTick>
-<NodeArgs eType="General" icon="11" nRep="33" status="Passed" >
-<Disp><![CDATA[Submit Form: web_submit_form]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="33" >
+<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=A Session ID has been created and loaded into a cookie called</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="34" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[06.06.2023 - 15:25:17]]></Time>
+<TimeTick>1686050717</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="35" status="Failed" >
+<Disp><![CDATA[Url: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T30">
-<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:02]]></Time>
-<TimeTick>1685976722</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="34" >
-<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T31">
-<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Sec-Fetch-User: ?1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:02]]></Time>
-<TimeTick>1685976722</TimeTick>
-<NodeArgs eType="General" icon="9" nRep="35" >
-<Disp><![CDATA[Service: Add Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T32">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=A Session ID has been created and loaded into a cookie called</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:02]]></Time>
-<TimeTick>1685976722</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="36" >
-<Disp><![CDATA[Service: Reg Find]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T33">
-<Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[05.06.2023 - 18:52:02]]></Time>
-<TimeTick>1685976722</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="37" status="Passed" >
-<Disp><![CDATA[Url: SignOff Button]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t6.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="05.06.2023 - 18:52:00" eTime="05.06.2023 - 18:52:02" passed="5" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Summary sTime="06.06.2023 - 15:25:16" eTime="06.06.2023 - 15:25:17" passed="2" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
 <Disp><![CDATA[UC_2_Deliting_a_reservation Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T34">
+<Action rID="T32">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="05.06.2023 - 18:52:02" eTime="05.06.2023 - 18:52:02" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="40" >
+<Summary sTime="06.06.2023 - 15:25:17" eTime="06.06.2023 - 15:25:17" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="38" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="05.06.2023 - 18:52:00" eTime="05.06.2023 - 18:52:02" passed="5" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Summary sTime="06.06.2023 - 15:25:16" eTime="06.06.2023 - 15:25:17" passed="2" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test UC_2_Deliting_a_reservation Summary]]></Disp>
 </NodeArgs>
 </Doc>

@@ -5,51 +5,7 @@ Action()
 	
 	lr_start_transaction("02_delite");
 	
-		lr_start_transaction("goToSite");
-		
-			web_set_sockets_option("SSL_VERSION", "AUTO");
-		
-			web_add_auto_header("Sec-Fetch-Site", 
-				"none");
-		
-			web_add_auto_header("Sec-Fetch-Dest", 
-				"document");
-		
-			web_add_auto_header("Sec-Fetch-Mode", 
-				"navigate");
-		
-			web_add_auto_header("Sec-Fetch-User", 
-				"?1");
-		
-			web_add_auto_header("Upgrade-Insecure-Requests", 
-				"1");
-		
-	
-			web_reg_save_param_attrib(
-				"ParamName=userSession",
-				"TagName=input",
-				"Extract=value",
-				"Name=userSession",
-				"Type=hidden",
-				SEARCH_FILTERS,
-				"RequestUrl=*/nav.pl*",
-				LAST);
-		
-			web_reg_find("Fail=NotFound",
-				"Text=Web Tours",
-				LAST);
-		
-			web_url("WebTours", 
-				"URL=http://localhost:1080/WebTours/", 
-				"TargetFrame=", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=", 
-				"Snapshot=t1.inf", 
-				"Mode=HTML", 
-				LAST);
-		
-		lr_end_transaction("goToSite", LR_AUTO);
+	goToSite();
 
 		lr_think_time(6);
 		
@@ -195,28 +151,7 @@ Action()
 		
 		lr_think_time(6);		
 		
-		lr_start_transaction("logout");
-
-			web_revert_auto_header("Sec-Fetch-User");
-		
-			web_add_header("Sec-Fetch-User", 
-				"?1");
-		
-			web_reg_find("Fail=NotFound",
-				"Text=A Session ID has been created and loaded into a cookie called",
-				LAST);
-			
-			web_url("SignOff Button", 
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-				"Snapshot=t5.inf", 
-				"Mode=HTML", 
-				LAST);
-			
-		lr_end_transaction("logout", LR_AUTO);
+		Logout();
 
 		
 	lr_end_transaction("02_delite", LR_AUTO);

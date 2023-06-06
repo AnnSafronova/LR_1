@@ -8,3 +8,5 @@ d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:117: w
 d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:117: warning: empty declaration
 d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:136: warning: missing return value
 d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:136: warning: empty declaration
+d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:184: warning: missing return value
+d:\temp\new_script\uc_1_buy_a_ticket\\pre_cci.c: ..\\Parameters\\common.h:204: warning: missing return value

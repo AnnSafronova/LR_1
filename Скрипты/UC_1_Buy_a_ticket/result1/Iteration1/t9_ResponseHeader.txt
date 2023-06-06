@@ -1,9 +1,7 @@
 HTTP/1.1 200 OK
-Date: Mon, 05 Jun 2023 14:24:06 GMT
+Date: Tue, 06 Jun 2023 11:23:27 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Sun, 04 Jun 2023 14:24:06 GMT
-Set-Cookie: MTUserInfo=firstName&&username&bungee&address2&&hash&69&address1&&lastName&%0A; path=/
-Keep-Alive: timeout=5, max=91
+Keep-Alive: timeout=5, max=90
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
